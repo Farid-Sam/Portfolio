@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Sam | Portfolio BTS SIO SLAM</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+</head>
+
+<body>
+
+    <header class="navbar">
+        <a href="#accueil" class="logo">
+            Sam<span>.</span>
+            <small>BTS SIO SLAM</small>
+        </a>
+
+        <nav id="menu">
+            <a href="#accueil" class="active">Accueil</a>
+            <a href="#apropos">À propos</a>
+            <a href="#competences">Compétences</a>
+            <a href="#projets">Projets</a>
+            <a href="#experiences">Expériences</a>
+            <a href="#veille">Veille</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+        <a href="documents/cv-sam.pdf" class="cv-btn" download>
+            Télécharger mon CV
+            <i class="fa-solid fa-download"></i>
+        </a>
+
+        <button class="menu-btn" id="menuBtn" aria-label="Ouvrir le menu">
+            <i class="fa-solid fa-bars"></i>
+        </button>
+    </header>
+
+
+    <!-- Accueil -->
+    <section class="hero" id="accueil">
+
+        <div class="hero-content">
+            <p class="hello">Bonjour, je suis</p>
+
+            <h1>Sam</h1>
+
+            <h2>
+                Étudiant en <span>BTS SIO - option SLAM</span>
+            </h2>
+
+            <p class="hero-description">
+                Je conçois des solutions web et des applications pour répondre
+                à des besoins concrets, en m'appuyant sur mes compétences en
+                développement et en bases de données.
+            </p>
+
+            <div class="hero-buttons">
+                <a href="#projets" class="btn primary">
+                    Voir mes projets
+                    <i class="fa-solid fa-arrow-right"></i>
+                </a>
+
+                <a href="#contact" class="btn secondary">
+                    Me contacter
+                    <i class="fa-regular fa-envelope"></i>
+                </a>
+            </div>
+
+            <div class="socials">
+                <a href="#" aria-label="GitHub">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+
+                <a href="#" aria-label="LinkedIn">
+                    <i class="fa-brands fa-linkedin-in"></i>
+                </a>
+
+                <a href="mailto:tonemail@example.com" aria-label="Email">
+                    <i class="fa-regular fa-envelope"></i>
+                </a>
+            </div>
+        </div>
+
+        <div class="hero-image">
+            <img src="images/hero.jpg" alt="Espace de développement informatique">
+
+            <div class="student-card">
+                <div class="student-icon">
+                    <i class="fa-solid fa-graduation-cap"></i>
+                </div>
+
+                <div>
+                    <strong>BTS SIO - SLAM</strong>
+                    <span>Développement d'applications</span>
+                    <span>Web • Bases de données</span>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+    <!-- À propos -->
+    <section class="section about" id="apropos">
+
+        <p class="section-label">À PROPOS</p>
+
+        <div class="about-grid">
+
+            <div class="about-text">
+                <h2>Mon <span>parcours</span></h2>
+
+                <p>
+                    Actuellement en BTS Services Informatiques aux Organisations,
+                    option SLAM, je me forme au développement d'applications,
+                    à la gestion de bases de données et à la conception de solutions web.
+                </p>
+
+                <p>
+                    Passionné par les nouvelles technologies, j'aime apprendre,
+                    résoudre des problèmes et réaliser des projets concrets.
+                    Mon objectif est de continuer à développer mes compétences
+                    dans le domaine informatique.
+                </p>
+
+                <a href="#competences" class="btn primary">
+                    Découvrir mes compétences
+                    <i class="fa-solid fa-arrow-right"></i>
+                </a>
+            </div>
+
+            <div class="about-photo">
+                <img src="images/profile-dev.jpg" alt="Développement informatique">
+            </div>
+
+            <div class="about-stats">
+
+                <div class="stat-card">
+                    <i class="fa-solid fa-code"></i>
+                    <div>
+                        <strong>+5</strong>
+                        <span>Projets réalisés</span>
+                    </div>
+                </div>
+
+                <div class="stat-card">
+                    <i class="fa-solid fa-graduation-cap"></i>
+                    <div>
+                        <strong>BTS SIO - SLAM</strong>
+                        <span>Formation en cours</span>
+                    </div>
+                </div>
+
+                <div class="stat-card">
+                    <i class="fa-solid fa-bullseye"></i>
+                    <div>
+                        <strong>Objectif</strong>
+                        <span>Poursuite d'études en informatique</span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+
+
+    <!-- Compétences -->
+//Mes compétences
+<section class="section skills-section" id="competences">
+
+    <div class="section-heading">
+        <p class="section-label">COMPÉTENCES</p>
+
+        <h2>
+            Mes <span>compétences</span>
+        </h2>
+
+        <p>
+            Les technologies et outils que j'utilise dans mes projets.
+        </p>
+    </div>
+
+
+    <div class="skills-grid">
+
+        <!-- HTML / CSS -->
+        <div class="skill-card">
+
+            <div class="skill-logos">
+                <i class="devicon-html5-plain colored"></i>
+                <i class="devicon-css3-plain colored"></i>
+            </div>
+
+            <strong>HTML / CSS</strong>
+            <span>Développement web</span>
+
+        </div>
+
+
+        <!-- JavaScript -->
+        <div class="skill-card">
+
+            <i class="devicon-javascript-plain colored"></i>
+
+            <strong>JavaScript</strong>
+            <span>Développement web</span>
+
+        </div>
+
+
+        <!-- PHP -->
+        <div class="skill-card">
+
+            <i class="devicon-php-plain colored"></i>
+
+            <strong>PHP</strong>
+            <span>Développement web</span>
+
+        </div>
+
+
+        <!-- Python -->
+        <div class="skill-card">
+
+            <i class="devicon-python-plain colored"></i>
+
+            <strong>Python</strong>
+            <span>Programmation</span>
+
+        </div>
+
+
+        <!-- MySQL -->
+        <div class="skill-card">
+
+            <i class="devicon-mysql-original colored"></i>
+
+            <strong>SQL / MySQL</strong>
+            <span>Bases de données</span>
+
+        </div>
+
+
+        <!-- WordPress -->
+        <div class="skill-card">
+
+            <i class="devicon-wordpress-plain colored"></i>
+
+            <strong>WordPress</strong>
+            <span>CMS</span>
+
+        </div>
+
+
+        <!-- Git / GitHub -->
+        <div class="skill-card">
+
+            <div class="skill-logos">
+                <i class="devicon-git-plain colored"></i>
+                <i class="devicon-github-original"></i>
+            </div>
+
+            <strong>Git / GitHub</strong>
+            <span>Versioning</span>
+
+        </div>
+
+
+        <!-- Linux -->
+        <div class="skill-card">
+
+            <i class="devicon-linux-plain"></i>
+
+            <strong>Linux</strong>
+            <span>Systèmes</span>
+
+        </div>
+
+
+        <!-- Windows -->
+        <div class="skill-card">
+
+            <i class="devicon-windows11-original colored"></i>
+
+            <strong>Windows</strong>
+            <span>Systèmes</span>
+
+        </div>
+
+
+        <!-- VS Code -->
+        <div class="skill-card">
+
+            <i class="devicon-vscode-plain colored"></i>
+
+            <strong>VS Code</strong>
+            <span>Outils</span>
+
+        </div>
+
+    </div>
+
+</section>
+    <!-- Projets -->
+    <section class="section projects-section" id="projets">
+
+        <div class="section-heading">
+            <p class="section-label">PROJETS</p>
+            <h2>Mes <span>projets</span></h2>
+            <p>
+                Quelques projets réalisés pendant ma formation.
+            </p>
+        </div>
+
+        <div class="projects-grid">
+
+            <article class="project-card">
+                <div class="project-image">
+                    <img src="images/projet-notation.jpg" alt="Application de notation">
+                    <span class="project-tag">PHP / MySQL</span>
+                </div>
+
+                <div class="project-content">
+                    <h3>Application de notation de projets</h3>
+
+                    <p>
+                        Application web permettant à des jurys de noter des projets
+                        selon plusieurs critères, avec calcul des moyennes et classement.
+                    </p>
+
+                    <div class="project-footer">
+                        <a href="#">
+                            Voir le projet
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+
+                        <a href="#" aria-label="Code source du projet">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+                    </div>
+                </div>
+            </article>
+
+
+            <article class="project-card">
+                <div class="project-image">
+                    <img src="images/Node.png" alt="Site WordPress BTS">
+                    <span class="project-tag">WordPress</span>
+                </div>
+
+                <div class="project-content">
+                    <h3>Site WordPress pédagogique</h3>
+
+                    <p>
+                        Site réalisé en groupe avec présentation des étudiants,
+                        CV, cours, exercices et solutions en C, PHP et JavaScript.
+                    </p>
+
+                    <div class="project-footer">
+                        <a href="#">
+                            Voir le projet
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+
+                        <a href="#" aria-label="Code source du projet">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+                    </div>
+                </div>
+            </article>
+
+
+            <article class="project-card">
+                <div class="project-image">
+                    <img src="images/projet-python.jpg" alt="Projet Python">
+                    <span class="project-tag">Python</span>
+                </div>
+
+                <div class="project-content">
+                    <h3>Projet Python</h3>
+
+                    <p>
+                        Projet réalisé pour mettre en pratique la programmation
+                        orientée objet et la résolution de problèmes algorithmiques.
+                    </p>
+
+                    <div class="project-footer">
+                        <a href="#">
+                            Voir le projet
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+
+                        <a href="#" aria-label="Code source du projet">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+                    </div>
+                </div>
+            </article>
+
+        </div>
+    </section>
+
+
+    <!-- Expériences -->
+    <section class="section experience-section" id="experiences">
+
+        <p class="section-label">EXPÉRIENCES</p>
+
+        <div class="experience-layout">
+
+            <div class="experience-title">
+                <h2>Mes <span>expériences</span></h2>
+
+                <p>
+                    Mes expériences professionnelles m'ont permis de développer
+                    mon autonomie, mon organisation et ma capacité à travailler en équipe.
+                </p>
+            </div>
+
+            <div class="timeline">
+
+                <div class="experience-card">
+                    <i class="fa-solid fa-cart-shopping experience-icon"></i>
+
+                    <div>
+                        <h3>Équipier vente</h3>
+                        <strong>Carrefour</strong>
+                        <span class="date">2024 - Aujourd'hui</span>
+
+                        <ul>
+                            <li>Mise en rayon</li>
+                            <li>Gestion des stocks</li>
+                            <li>Relation client</li>
+                            <li>Respect des procédures</li>
+                        </ul>
+                    </div>
+                </div>
+
+
+                <div class="experience-card">
+                    <i class="fa-solid fa-truck experience-icon"></i>
+
+                    <div>
+                        <h3>Chargé logistique</h3>
+                        <strong>Transroyal GH</strong>
+                        <span class="date">Février 2024 - Août 2024</span>
+
+                        <ul>
+                            <li>Planification des chargements</li>
+                            <li>Organisation des livraisons</li>
+                            <li>Suivi logistique</li>
+                            <li>Maintenance des camions</li>
+                        </ul>
+                    </div>
+                </div>
+
+
+                <div class="experience-card">
+                    <i class="fa-solid fa-store experience-icon"></i>
+
+                    <div>
+                        <h3>Équipier polyvalent</h3>
+                        <strong>Glacimo NY</strong>
+                        <span class="date">Octobre 2023 - Janvier 2024</span>
+
+                        <ul>
+                            <li>Accueil et service client</li>
+                            <li>Préparation des produits</li>
+                            <li>Organisation</li>
+                            <li>Travail en équipe</li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Veille technologique -->
+    <section class="section veille-section" id="veille">
+
+        <div class="veille-intro">
+            <p class="section-label">VEILLE TECHNOLOGIQUE</p>
+
+            <h2>Ma <span>veille</span></h2>
+
+            <p>
+                Je m'informe régulièrement sur les nouvelles technologies
+                et les évolutions du secteur informatique.
+            </p>
+        </div>
+
+        <div class="veille-grid">
+
+            <article class="veille-card">
+                <div class="veille-icon">
+                    <i class="fa-solid fa-robot"></i>
+                </div>
+
+                <div>
+                    <h3>L'impact de l'IA sur le développement logiciel</h3>
+                    <span>Intelligence artificielle</span>
+                    <a href="#">Lire l'article →</a>
+                </div>
+            </article>
+
+
+            <article class="veille-card">
+                <div class="veille-icon">
+                    <i class="fa-brands fa-php"></i>
+                </div>
+
+                <div>
+                    <h3>Les nouveautés de PHP</h3>
+                    <span>Développement web</span>
+                    <a href="#">Lire l'article →</a>
+                </div>
+            </article>
+
+
+            <article class="veille-card">
+                <div class="veille-icon">
+                    <i class="fa-solid fa-shield-halved"></i>
+                </div>
+
+                <div>
+                    <h3>La cybersécurité en entreprise</h3>
+                    <span>Sécurité informatique</span>
+                    <a href="#">Lire l'article →</a>
+                </div>
+            </article>
+
+        </div>
+    </section>
+
+
+    <!-- Contact -->
+    <section class="contact-section" id="contact">
+
+        <div>
+            <p class="section-label">CONTACT</p>
+            <h2>Travaillons <span>ensemble</span></h2>
+            <p>Une question ? Un projet ? N'hésitez pas à me contacter.</p>
+        </div>
+
+        <div class="contact-links">
+
+            <a href="mailto:tonemail@example.com">
+                <i class="fa-regular fa-envelope"></i>
+                <div>
+                    <strong>Email</strong>
+                    <span>tonemail@example.com</span>
+                </div>
+            </a>
+
+            <a href="#">
+                <i class="fa-brands fa-linkedin"></i>
+                <div>
+                    <strong>LinkedIn</strong>
+                    <span>Mon profil</span>
+                </div>
+            </a>
+
+            <a href="#">
+                <i class="fa-brands fa-github"></i>
+                <div>
+                    <strong>GitHub</strong>
+                    <span>Mes projets</span>
+                </div>
+            </a>
+
+        </div>
+    </section>
+
+
+    <footer>
+        <a href="#accueil" class="footer-logo">Sam<span>.</span></a>
+
+        <p>Portfolio BTS SIO SLAM</p>
+
+        <div class="footer-socials">
+            <a href="#" aria-label="GitHub">
+                <i class="fa-brands fa-github"></i>
+            </a>
+
+            <a href="#" aria-label="LinkedIn">
+                <i class="fa-brands fa-linkedin-in"></i>
+            </a>
+
+            <a href="mailto:tonemail@example.com" aria-label="Email">
+                <i class="fa-regular fa-envelope"></i>
+            </a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
